@@ -1,15 +1,17 @@
 #include <stdio.h>
-/**
- * main - prints the alphabets
- * Return: Always 0 (success)
- */
 
+/**
+ *main-program entry point.
+ *Return:0 if no error, non zero if error.
+ **/
 int main(void)
 {
-	for (int x = 'A'; x <= 'Z'; x++)
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		x = tolower (x);
-		putchar(x);
+		putchar(i);
 	}
+	putchar('\n');
 	return (0);
 }
