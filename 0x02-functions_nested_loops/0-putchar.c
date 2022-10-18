@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * main - print _putchar
- * its written by me Biggywalata
+ * main - print putchar
  * Return: 0 (Success)
  */
 
-int main(void)
+int main(void)7
 {
 _putchar('_');
 _putchar('p');
 _putchar('u');
 _putchar('t');
 _putchar('c');
+_putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
