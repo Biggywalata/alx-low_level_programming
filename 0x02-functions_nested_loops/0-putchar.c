@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - print _putchar without using printf
- * Retirn: 0 (Success)
+ * main - print _putchar
+ * its written by me Biggywalata
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
 _putchar('_');
