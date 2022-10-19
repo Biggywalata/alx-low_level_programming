@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet_10x - prints all alphabets in lowercase 10times.
- * Return: on success 1.
+ * print_alphabet_10x - prints all alphabets in lowercase 10times
+ * Return: on success 1
  */
-void print_alphabet_10x(void)
+void print_alphabet_x10(void)
 {
 	char i, k;
 
