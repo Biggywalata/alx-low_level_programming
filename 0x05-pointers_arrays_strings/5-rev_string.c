@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rev_string - Reverse sa sring
+ * rev_string - Reverse a string
  * @s: The string to be modified
  * Return: void
  */
