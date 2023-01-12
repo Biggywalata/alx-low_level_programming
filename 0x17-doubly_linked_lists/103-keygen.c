@@ -51,7 +51,9 @@ int f5(char *usrn, int len)
 		vch += 1;
 	}
 
-	return (((unsigned int)ch ^ 239) & 63)
+	return (((unsigned int)ch ^ 239) & 63);
+}
+
 /**
  * f6 - generates a random char
  *
@@ -93,7 +95,7 @@ int main(int argc, char **argv)
 
 	for (len = 0; argv[1][len]; len++)
 		;
-/* ----------- f1 ----------- */
+	/* ----------- f1 ----------- */
 	keygen[0] = ((char *)alph)[(len ^ 59) & 63];
 	/* ----------- f2 ----------- */
 	ch = vch = 0;
